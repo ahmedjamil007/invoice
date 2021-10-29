@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>invoice</title>
+	<style >
+	.invoice{
+
+  height:595px;
+  width: 420px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+}
+.header{
+  background-color:#04AA6D;;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  color: white;
+ 
+}
+.main {
+  border:px solid black;
+  text-align: center;
+  
+  margin-top: 10px;
+}
+.m_invoic{
+ 
+  width:100%;
+  margin-top:10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+ 
+}
+.Patient_Details_table{
+   margin-top: 5px;
+   width:100%;
+   font-size: 12px;
+}
+#doctor_table {
+  
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#doctor_table td, #doctor_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+}
+
+#doctor_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#doctor_table tr:hover {background-color: #ddd;}
+
+#doctor_table th {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 12px;
+}
+.note_table{
+  border: 1px solid black;
+   width:100%;
+   
+}
+.note_table_text{
+  border: 1px solid black; 
+ width: 15%;
+ font-size: 12px;
+}
+
+</style>
+</head>
+<body class="invoice">
+
+
+
+
+  <!--Header start-->
+
+   <table class="main" style="width:100%">
+       <div class="header">সেনাবাহিনীর তত্ত্বাবধানে পরিচালিত ,সর্ব সাধরনের জন্য উন্মুক্ত</div>
+          <tr >
+            <td style="line-height: 130%;">
+                <div style="font-size:14px;">ময়নামতি ক্যান্টনম্যান্ট জেনারেল হসপিটাল</div>
+                <div style="font-size:13px;">MAYNAMATI CANTOMENT GENERAL HOSPITAL</div>
+                <div style="font-size:11px;">টিপরা বাজার,কুমিল্লা সেনানিবাস</div>
+                <div style="font-size:10px ;">মোবাইল-০১৭৩০-০৮৭৯৪৯,মোবাইল-০১৭৩০-০৮৭৯৩৯ ,<br>ফোন ০৮১-৬০-৭,বর্ধিত-সামরিক ৩৫৩৬,বেসামরিক ৭২৭০৭</div>
+           </td> 
+         </tr>
+</table><!--Header end-->
+
+
+
+
+
+
+
+
+ <table class="m_invoic">
+  
+        <tr>
+          <td>MEDICAL INVOICE()</td>
+        </tr>
+
+ </table>
+
+
+
+
+
+
+
+
+<!--rc_receptionid_date table start-->
+
+ <table style="width:100%;margin-top: 5px;font-size: 12PX;"> 
+  
+        <tr>
+                  <td style="width:25%">RC- </td>
+                  <td style="width:50%">Receptions ID- </td>
+                  <td style="width:25%">Date- </td>
+        </tr>
+
+ </table><!--rc_receptionid_date table end-->
+
+
+
+
+
+
+<!--Patient Details-->
+
+
+<table class="Patient_Details_table">
+
+      <tr>
+          <td ><b style="font-size:17px" >Patient Details</b></td>
+      </tr>
+ 
+      <tr>
+          <td style="width:60%">Patient ID:</td>
+          <td style="width:40%" > NID:</td>
+      </tr>
+      <tr>
+          <td >Name:</td>
+          <td >NID Type:</td>
+      </tr>
+      <tr>
+          <td >Gender:</td>
+          <td >Appointment date:</td>
+      </tr>
+      <tr>
+          <td >Phone :</td>
+          <td>Appointment time:</td>
+      </tr>
+  
+</table> <!--Patient Details end-->
+
+
+
+
+
+
+
+
+<!--Serial table start-->
+
+<table style="width:100%;margin-top:5px;"> 
+      <tr> 
+         <td> Serial No-2</td>
+      </tr>
+</table><!--Serial table end-->
+
+
+
+
+
+
+
+<!--doctor_table start-->
+
+
+<table id="doctor_table">
+        <tr>
+              <th>#</th>
+              <th >Doctor name</th>
+              <th >Fee</th>
+              <th >Discount</th>
+              <th >Payable amount</th>
+        </tr>
+        <tr>
+              <td></td>
+              <td>Brig Gen S M Mizanur Rahman</td>
+              <td>700</td>
+              <td>200</td>
+              <td>500</td>
+        </tr>
+        <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+        </tr>
+        <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+        </tr>
+         <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+        </tr>
+        
+</table><!--doctor_table end-->
+
+
+
+<!--note_table Start-->
+
+<table class="note_table" >
+        <tr>
+             <td rowspan="2"><b>Note:</b></td>
+             <td class="note_table_text">Received:</td>
+             <td class="note_table_text">$100</td>
+          
+        </tr>
+        
+        
+        <tr>
+            <td class="note_table_text">Change</td>
+            <td class="note_table_text">$80</td>
+        </tr>
+
+</table> <!--note_table end-->
+
+
+
+
+
+
+
+ <!--thank_yu section start-->
+
+
+ <table class="m_invoic">
+  
+        <tr>
+            <td>THANK YOU</td>
+        </tr>
+
+</table><!--thank_yu section end-->
+
+
+
+<table style="width:100%;margin-top:10px;font-size: 12px;">
+        <tr>
+            <td >Phone:</td>
+            <td >Email:</td>
+          
+        </tr>
+        
+        <tr>
+            <td style="background-color: #04AA6D;height: 2px;"></td>
+            <td style="background-color: #04AA6D;height: 2px;"></td>
+          
+        </tr>
+
+  </table>
+
+
+  
+
+</body>
+</html>
