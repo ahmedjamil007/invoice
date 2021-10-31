@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>invoice</title>
+  <style >
+  .invoice{
+
+  height:595px;
+  width: 420px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-family:arial,sans-serif,helvetica;
+}
+.header{
+  background-color:#04AA6D;;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  color: white;
+ 
+}
+.main {
+  border:px solid black;
+  text-align: center;
+  
+  margin-top: 5px;
+}
+.m_invoic{
+ 
+  width:100%;
+  margin-top:5px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+ 
+}
+.patient_details {
+  border:1px solid black;
+  font-size: 12px;
+}
+.Address_table {
+  border:1px solid black;
+  padding:2px;
+  font-size: 12px;
+}
+
+
+</style>
+</head>
+<body class="invoice">
+
+
+
+
+  <!--Header start-->
+
+   <table class="main" style="width:100%">
+       <div class="header">সেনাবাহিনীর তত্ত্বাবধানে পরিচালিত ,সর্ব সাধরনের জন্য উন্মুক্ত</div>
+          <tr >
+            <td style="line-height: 110%;">
+                <div style="font-size:14px;">ময়নামতি ক্যান্টনম্যান্ট জেনারেল হসপিটাল</div>
+                <div style="font-size:13px;">MAYNAMATI CANTOMENT GENERAL HOSPITAL</div>
+                <div style="font-size:11px;">টিপরা বাজার,কুমিল্লা সেনানিবাস</div>
+                <div style="font-size:10px ;">মোবাইল-০১৭৩০-০৮৭৯৪৯,মোবাইল-০১৭৩০-০৮৭৯৩৯ ,<br>ফোন ০৮১-৬০-৭,বর্ধিত-সামরিক ৩৫৩৬,বেসামরিক ৭২৭০৭</div>
+           </td> 
+         </tr>
+</table><!--Header end-->
+
+
+
+
+
+
+
+
+ <table class="m_invoic">
+  
+        <tr>
+          <td>Admission Ticket()</td>
+        </tr>
+
+ </table>
+
+
+
+
+<!--reg_date table start-->
+
+ <table style="width:100%;margin-top:5px;font-size: 12px;"> 
+  
+        <tr>
+                  <td style="width:70%">Patient ID- </td>
+                  <td style="width:30%">Date- </td>
+        </tr>
+
+ </table><!--reg_date table end-->
+
+<!--patient details start-->
+
+
+
+
+  <table  style="width:100%;margin-top:5px;">
+
+  
+             <tr>
+                <td class= "patient_details"style="width:57.5%">Patient's Name:</td>
+                <td class= "patient_details"style="width:42.5%">Gender:</td>  
+            </tr>
+ 
+
+             <tr>
+               <td class= "patient_details">Age:</td>
+               <td class= "patient_details">Bed/cabin no:</td>
+            </tr>
+
+              <tr>
+               <td class= "patient_details">Religion:</td>
+               <td class= "patient_details">Floor No:</td>
+            </tr>
+
+</table> <!--patient details end-->
+
+
+
+
+
+
+<!--address section start-->
+
+
+<!--Present Address_table_start-->
+
+<table style="width:100%;margin-top: 5px;">
+  
+           <tr>
+                    <td  rowspan="2"style="width:15%;font-size:12px;">Present Address:</td>
+                    <td class= "Address_table"style="width:42%">Vill:</td>
+                    <td class= "Address_table"style="width:42%">P.O:</td>
+          </tr>
+
+
+          <tr>
+                    <td class= "Address_table">Upazilla:</td>
+                    <td class= "Address_table">Dist:</td>
+          </tr>
+
+
+</table> <!--Present Address_table_end-->
+
+
+
+
+
+
+
+
+
+<!--Parmanent_Address_table_start-->
+
+
+<table style="width:100%;margin-top: 5px;">
+  
+         <tr>
+                <td  rowspan="2"style="width:15%;font-size:12px;">Parmanent Address:</td>
+                <td class= "Address_table"style="width:42.5%">Vill:</td>
+                <td class= "Address_table"style="width:42.5%">P.O:</td>
+         </tr>
+         <tr>
+                <td class= "Address_table">Upazilla:</td>
+                <td class= "Address_table">Dist:</td>
+        </tr>
+</table> <!--Parmanent_Address_table_start-->
+
+
+
+<!--adress section end-->
+
+
+
+
+
+
+
+
+
+
+<!-- Emergancy adress_number section start-->
+
+<table style="width: 100%;font-size: 12PX;"> 
+          <tr>
+              <td style="width: 30%;"> Emergancy Address:</td>
+              <td style="width: 70%;"class= "Address_table"></td>
+          </tr>
+
+         <tr>
+              <td > Emergancy Number:</td>
+              <td class= "Address_table"></td>
+          </tr>
+
+</table><!-- Emergancy adress_number section end-->
+
+
+
+
+
+
+
+
+
+<!-- consultant_date_admisson section start-->
+
+
+<table style="width: 100%;font-size: 12PX;margin-top: 3px;"> 
+        <tr>
+            <td style="width:15%;">Consultant:</td> 
+            <td style="width:45%; "class= "Address_table"></td>
+            <td style="width:25%;">Date of admission:</td>
+            <td style="width:15%;"></td>
+        </tr>
+
+
+</table><!-- consultant_date_admisson section end-->
+
+
+
+
+
+
+
+
+
+
+<!-- Diagnosis: section start-->
+
+<table style="width: 100%;font-size: 12PX;margin-top: 3px;"> 
+       <tr> 
+            <td style="width:15%;">Diagnosis:</td>
+            <td style="width:85%;" class= "Address_table"></td>
+       </tr>
+</table><!-- Diagnosis: section end-->
+
+
+
+
+
+
+
+
+
+<!-- pakage section start-->
+<table style="width:100%;margin-top:5PX;font-size: 12px;">
+
+        <tr>
+            <td style="width:25%"></td>
+            <td style="width:25%">Package:</td>
+            <td style="width:20%;">Ligation:</td>
+            <td style="width:25%;">3rd seizure:</td>
+        </tr>
+
+</table><!-- pakage section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width:100%;margin-top:5PX;font-size: 12px;">
+    <tr>
+        <th style="width:50%;font-size: 11px;">DISCHARGE NOTE/DEATH NOTE</th>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="4"style="border: 1px solid black;"></td>
+        <td style="width:50%;border: 1px solid transparent;">Fee: </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid transparent;">Paid: </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid transparent;">Change: </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid transparent;">Receptionist: </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer start-->
+
+
+<table class="m_invoic"style="font-size: 10px;">
+        <tr>
+            <td>ময়নামতি ক্যান্টনম্যান্ট জেনারেল হসপিটাল সেবায় অনন্য</td>
+        </tr>
+</table><!--footer end-->
+
+
+
+
+</body>
