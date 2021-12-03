@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>invoice</title>
+	<style >
+	.invoice{
+
+  height:595px;
+  width: 420px;
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-left: 30px;
+  
+  font-family:arial,sans-serif,helvetica;
+  
+  
+}
+.header{
+  background-color:#f2f2f2;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  color: black;
+   font-weight: bold;
+ 
+}
+.main {
+  border:px solid black;
+  text-align: center;
+  
+  margin-top: 10px;
+}
+.m_invoic{
+ 
+  width:100%;
+  margin-top:5px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 13px;
+  padding: 3px;
+  font-weight: bold;
+ 
+}
+.Patient_Details_table{
+
+   margin-top: 10px;
+   width:100%;
+   font-size: 13px;
+}
+.test_table{
+ border:1px solid black;
+  padding:2px; 
+  font-size: 11px;
+  text-align: center;
+
+}
+TABLE{
+  border-collapse: collapse;
+}
+.total_les_due1 {
+   
+  padding:3px; 
+  font-size: 12px;
+  text-align: RIGHT;
+
+
+}
+.total_les_due2 {
+   border:1px solid black;
+  padding:3px; 
+  font-size: 12px;
+  text-align: RIGHT;
+
+
+}
+
+
+</style>
+
+
+</head>
+
+
+
+
+
+
+
+
+
+<body class="invoice">
+
+
+
+
+  <!--Header start-->
+
+   <table class="main" style="width:100%">
+       <div class="header">সেনাবাহিনীর তত্ত্বাবধানে পরিচালিত ,সর্ব সাধারনের জন্য উন্মুক্ত</div>
+          <tr >
+            <td style="line-height: 130%;">
+                <div style="font-size:15px;">ময়নামতি ক্যান্টনম্যান্ট জেনারেল হসপিটাল</div>
+                <div style="font-size:13px;">MAINAMATI CANTONMENT GENERAL HOSPITAL</div>
+                <div style="font-size:11px;">টিপরা বাজার,কুমিল্লা সেনানিবাস</div>
+                <div style="font-size:10px ;">মোবাইল-০১৭৩০-০৮৭৯৪৯,মোবাইল-০১৭৩০-০৮৭৯৩৯ </div>
+           </td> 
+         </tr>
+</table><!--Header end-->
+
+
+
+
+
+
+
+
+ <table class="m_invoic">
+  
+        <tr>
+          <td>INVOICE</td>
+        </tr>
+
+ </table>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Patient_Details_table_start-->
+
+
+<table class="Patient_Details_table" >
+   <tr> 
+
+        <td colspan="2"><b>Receptionist</b>:</td>
+        <td style="width: 40%;" ><b>Date:</b></td>
+   </tr>
+
+
+
+   <tr> 
+
+        <td colspan="2"><b>Patient ID:</td>
+        <td style="width: 40%;" ><b>Delivery Date:</td>
+   </tr>
+
+
+    <tr>
+          <td colspan="3"><b>Patient Name: </td>
+          
+    </tr>
+
+
+     <tr> 
+           <td style="width: 30%;"><b>Gender:</td>
+           <td style="width: 30%;"> <b>Age:</td>
+           <td style="width: 40%;"><b>Phone:</td>
+    </tr>
+
+
+    <tr>
+          <td colspan="3"><b>Referred By: </td>
+          
+    </tr>
+
+
+</table><!--Patient_Details_table_end-->
+
+
+
+
+
+
+
+
+
+
+<!--test_details yable start-->
+
+<table style="width:100%;margin-top: 10PX;">
+
+        <tr>
+              <th class= "test_table"style="width:10%;">S-No</th>
+              <th class= "test_table" style="width:60%">Test Name</th>
+              <th  class= "test_table"style="width:15%">Room No</th>
+              <th  class= "test_table"style="width:20%">Amount</th>
+       </tr>
+       <tr>
+               <td class= "test_table">1</td>
+               <td class= "test_table">PERITIAL BLOOD FLIM(PBF)</td>
+               <td class= "test_table">11</td>
+               <td class= "test_table"style="text-align: right;">2000</td>
+       </tr>
+      
+       
+</table><!--test_details table end-->
+
+
+
+
+
+
+
+
+
+<!--total_less-due start-->
+
+<table style="width:100%">
+  
+  <tr>
+        <td style="width:58%"></td>
+        <td style="width:19.7%"class="total_les_due1" >Total:</td>
+        <td style="width:36%"class="total_les_due2" >10000000</td>
+  </tr>
+
+   <tr>
+        <td style="width:55.5%"></td>
+        <td style="width:19.7%;" class="total_les_due1" >Discount:</td>
+        <td style="width:36%"class="total_les_due2" >1200</td>
+        
+
+  </tr>
+  
+  <tr>
+        <td style="width:52%"></td>
+        <td style="width:27%;"class="total_les_due1" >Paid:</td>
+        <td style="width:27%"class="total_les_due2" >500</td>
+        
+
+  </tr>
+
+  <tr>
+        <td style="width:55.5%"></td>
+        <td style="width:19.7%;"class="total_les_due1" >Due:</td>
+        <td style="width:36%"class="total_les_due2" >450</td>
+        
+
+  </tr>
+   
+</table><!--total_less-due end-->
+
+
+
+
+
+
+
+
+
+
+
+<table class="m_invoic" style="margin-top: 10px;">
+  
+  <tr>
+    <td>ময়নামতি ক্যান্টনম্যান্ট জেনারেল হসপিটাল সেবায় অনন্য</td>
+    
+    
+  </tr>
+</table>
+
+
+
+  
+
+</body>
+</html>
